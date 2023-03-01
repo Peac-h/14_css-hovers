@@ -70,7 +70,8 @@ body {
     body header .non-hover-msg {
       align-self: center;
       color: #e07a5f;
-      padding: 5rem 2rem; }
+      padding: 5rem 2rem;
+      display: none; }
       @media (any-hover: none) {
         body header .non-hover-msg {
           display: block; } }
