@@ -92,9 +92,20 @@ body {
       letter-spacing: 1px;
       transition: all 1s;
 
-      &:hover {
+      &:not(:last-child):hover {
         transform: scale(1.2);
         text-shadow: var(--shadow-text);
+      }
+    }
+
+    .non-hover-msg {
+      align-self: center;
+      color: #e07a5f;
+      padding: 5rem 2rem;
+      // display: none;
+
+      @media (any-hover: none) {
+        display: block;
       }
     }
   }

@@ -4,7 +4,7 @@ Yet another small comics based project with some leveled up hover effects.
 
 Project is on bases of [100dayscss](https://100dayscss.com/) css challenges, 3 separate challanges combined in 1.
 
-Made fully responsive for all screen sizes.
+Made responsive for all screen sizes. For non-hover devices relevant note is appearing.
 
 Once again could't stand the temptation of designing it in comics world style. **Hope, you'll enjoy it.**
 

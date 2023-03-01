@@ -64,9 +64,16 @@ body {
       align-self: flex-end;
       letter-spacing: 1px;
       transition: all 1s; }
-      body header p:hover {
+      body header p:not(:last-child):hover {
         transform: scale(1.2);
         text-shadow: var(--shadow-text); }
+    body header .non-hover-msg {
+      align-self: center;
+      color: #e07a5f;
+      padding: 5rem 2rem; }
+      @media (any-hover: none) {
+        body header .non-hover-msg {
+          display: block; } }
   body main {
     grid-column: 2;
     display: flex;
