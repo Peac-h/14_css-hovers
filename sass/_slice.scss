@@ -1,0 +1,91 @@
+.slices {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background: #ba8b02;
+
+  &:hover .slice,
+  &:active .slice {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  &:hover span:first-child,
+  &:active span:first-child {
+    transform: translateX(-5rem);
+  }
+  &:hover span:last-child,
+  &:active span:last-child {
+    transform: translateX(5rem);
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: var(--color-white);
+    text-shadow: var(--shadow-text);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) skewY(-2deg) skewX(-15deg);
+
+    span {
+      display: block;
+      transition: all 1s;
+    }
+  }
+
+  .slice {
+    position: relative;
+    z-index: 2;
+
+    width: 12.5%;
+    height: 100%;
+
+    background: url(../assets/dushawn-jovic-rlCo-JIpI_k-unsplash.jpg) no-repeat
+      0 -10rem;
+    background-size: 36rem auto;
+    transition: all 1s;
+  }
+
+  .slice-1 {
+    background-position: 0 -10rem;
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  .slice-2 {
+    background-position: -4.5rem -10rem;
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  .slice-3 {
+    background-position: calc(-4.5rem * 2) -10rem;
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  .slice-4 {
+    background-position: calc(-4.5rem * 3) -10rem;
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  .slice-5 {
+    background-position: calc(-4.5rem * 4) -10rem;
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  .slice-6 {
+    background-position: calc(-4.5rem * 5) -10rem;
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  .slice-7 {
+    background-position: calc(-4.5rem * 6) -10rem;
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  .slice-8 {
+    background-position: calc(-4.5rem * 7) -10rem;
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,91 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 12rem);
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    color: var(--color-white);
+
+    border: 2px solid #ddd;
+
+    cursor: pointer;
+    transition: all 1s ease;
+
+    &--1 {
+      background: #222;
+    }
+    &--2 {
+      background: #002d5c;
+    }
+    &--3 {
+      background: #c17565;
+    }
+    &--4 {
+      background: #af483a;
+    }
+    &--5 {
+      background: var(--color-main);
+    }
+    &--6 {
+      background: #2a4966;
+    }
+    &--7 {
+      background: #8fb882;
+    }
+    &--8 {
+      background: #ab0020;
+    }
+    &--9 {
+      background: #333;
+    }
+
+    img {
+      width: 70%;
+      height: auto;
+      transition: all 1s ease-in-out;
+    }
+  }
+
+  .img--1:hover,
+  .img--1:active {
+    transform: translate(100%, 100%) scale(3);
+  }
+  .img--2:hover,
+  .img--2:active {
+    transform: translate(0%, 100%) scale(3);
+  }
+  .img--3:hover,
+  .img--3:active {
+    transform: translate(-100%, 100%) scale(3);
+  }
+  .img--4:hover,
+  .img--4:active {
+    transform: translate(100%, 0%) scale(3);
+  }
+  .img--5:hover,
+  .img--5:active {
+    transform: translate(0%, 0%) scale(3);
+  }
+  .img--6:hover,
+  .img--6:active {
+    transform: translate(-100%, 0%) scale(3);
+  }
+  .img--7:hover,
+  .img--7:active {
+    transform: translate(100%, -100%) scale(3);
+  }
+  .img--8:hover,
+  .img--8:active {
+    transform: translate(0%, -100%) scale(3);
+  }
+  .img--9:hover,
+  .img--9:active {
+    transform: translate(-100%, -100%) scale(3);
+  }
+}

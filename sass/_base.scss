@@ -1,0 +1,146 @@
+:root {
+  // colors
+  --color-main: #ba8b02;
+  --color-sec: #333;
+  --color-bg: linear-gradient(to right bottom, #ece9e6, #fff);
+  --color-white: #fff;
+
+  // shadow
+  --shadow-box: 1px 2px 10px 0px rgba(51, 51, 51, 0.5);
+  --shadow-text: 0.5rem 1rem 2rem #777;
+
+  // font
+  --font-main: "Kalam", cursive;
+  --font-sec: "Archivo Black", sans-serif;
+}
+
+// // breakpoints
+$bp-big: 81.25em; ///////////// 1300px
+$bp-medium: 62.5em; ///////////// 1000px
+$bp-small: 25em; ///////////// 400px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $bp-big) {
+    font-size: 50%;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 62.5%;
+  }
+  @media only screen and (max-width: $bp-small) {
+    font-size: 40%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  font-family: var(--font-main);
+  color: var(--color-sec);
+  font-weight: 400;
+
+  display: grid;
+  grid-template-columns: 1vw 1fr 1vw;
+  grid-gap: 3vw;
+
+  position: relative;
+
+  header {
+    grid-column: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    padding: 3vw;
+    text-align: center;
+
+    h1 {
+      background: linear-gradient(#ba8b02, #333);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 3.5rem;
+      text-transform: uppercase;
+
+      transform: skewY(3deg);
+      transition: all 0.5s;
+
+      position: relative;
+
+      &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: var(--shadow-text);
+      }
+    }
+
+    p {
+      font-size: 2rem;
+
+      align-self: flex-end;
+      letter-spacing: 1px;
+      transition: all 1s;
+
+      &:hover {
+        transform: scale(1.2);
+        text-shadow: var(--shadow-text);
+      }
+    }
+  }
+
+  main {
+    grid-column: 2;
+
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  footer {
+    grid-column: 2 / span 2;
+
+    color: var(--color-sec);
+    font-size: 1.5rem;
+    text-align: end;
+    align-self: end;
+    padding-top: 5rem;
+    margin-right: 1rem;
+
+    a:link,
+    a:visited {
+      color: var(--color-main);
+    }
+  }
+}
+
+.section {
+  height: 36rem;
+  width: 36rem;
+
+  box-shadow: var(--shadow-box);
+
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s;
+
+  &:hover {
+    box-shadow: var(--shadow-text);
+  }
+}

@@ -1,0 +1,1500 @@
+.cover {
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 18rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: var(--font-sec);
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #fff;
+
+    padding: 2rem;
+  }
+
+  .main {
+    width: 100%;
+    height: 100%;
+    background-color: #ed1d24;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    .h2--main {
+      border: 3px solid #fff;
+    }
+  }
+  .secondary {
+    width: 100%;
+    height: 50%;
+    background-color: #ba8c02;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    transition: 0.5s;
+
+    .h2--secondary {
+      color: transparent;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  .piece {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+  }
+  .piece-1 {
+    top: 0px;
+  }
+  .piece-2 {
+    top: 2px;
+  }
+  .piece-3 {
+    top: 4px;
+  }
+  .piece-4 {
+    top: 6px;
+  }
+  .piece-5 {
+    top: 8px;
+  }
+  .piece-6 {
+    top: 10px;
+  }
+  .piece-7 {
+    top: 12px;
+  }
+  .piece-8 {
+    top: 14px;
+  }
+  .piece-9 {
+    top: 16px;
+  }
+  .piece-10 {
+    top: 18px;
+  }
+  .piece-11 {
+    top: 20px;
+  }
+  .piece-12 {
+    top: 22px;
+  }
+  .piece-13 {
+    top: 24px;
+  }
+  .piece-14 {
+    top: 26px;
+  }
+  .piece-15 {
+    top: 28px;
+  }
+  .piece-16 {
+    top: 30px;
+  }
+  .piece-17 {
+    top: 32px;
+  }
+  .piece-18 {
+    top: 34px;
+  }
+  .piece-19 {
+    top: 36px;
+  }
+  .piece-20 {
+    top: 38px;
+  }
+  .piece-21 {
+    top: 40px;
+  }
+  .piece-22 {
+    top: 42px;
+  }
+  .piece-23 {
+    top: 44px;
+  }
+  .piece-24 {
+    top: 46px;
+  }
+  .piece-25 {
+    top: 48px;
+  }
+  .piece-26 {
+    top: 50px;
+  }
+  .piece-27 {
+    top: 52px;
+  }
+  .piece-28 {
+    top: 54px;
+  }
+  .piece-29 {
+    top: 56px;
+  }
+  .piece-30 {
+    top: 58px;
+  }
+  .piece-31 {
+    top: 60px;
+  }
+  .piece-32 {
+    top: 62px;
+  }
+  .piece-33 {
+    top: 64px;
+  }
+  .piece-34 {
+    top: 66px;
+  }
+  .piece-35 {
+    top: 68px;
+  }
+  .piece-36 {
+    top: 70px;
+  }
+  .piece-37 {
+    top: 72px;
+  }
+  .piece-38 {
+    top: 74px;
+  }
+  .piece-39 {
+    top: 76px;
+  }
+  .piece-40 {
+    top: 78px;
+  }
+  .piece-41 {
+    top: 80px;
+  }
+  .piece-42 {
+    top: 82px;
+  }
+  .piece-43 {
+    top: 84px;
+  }
+  .piece-44 {
+    top: 86px;
+  }
+  .piece-45 {
+    top: 88px;
+  }
+  .piece-46 {
+    top: 90px;
+  }
+  .piece-47 {
+    top: 92px;
+  }
+  .piece-48 {
+    top: 94px;
+  }
+  .piece-49 {
+    top: 96px;
+  }
+  .piece-50 {
+    top: 98px;
+  }
+  .piece-51 {
+    top: 100px;
+  }
+  .piece-52 {
+    top: 102px;
+  }
+  .piece-53 {
+    top: 104px;
+  }
+  .piece-54 {
+    top: 106px;
+  }
+  .piece-55 {
+    top: 108px;
+  }
+  .piece-56 {
+    top: 110px;
+  }
+  .piece-57 {
+    top: 112px;
+  }
+  .piece-58 {
+    top: 114px;
+  }
+  .piece-59 {
+    top: 116px;
+  }
+  .piece-60 {
+    top: 118px;
+  }
+  .piece-61 {
+    top: 120px;
+  }
+  .piece-62 {
+    top: 122px;
+  }
+  .piece-63 {
+    top: 124px;
+  }
+  .piece-64 {
+    top: 126px;
+  }
+  .piece-65 {
+    top: 128px;
+  }
+  .piece-66 {
+    top: 130px;
+  }
+  .piece-67 {
+    top: 132px;
+  }
+  .piece-68 {
+    top: 134px;
+  }
+  .piece-69 {
+    top: 136px;
+  }
+  .piece-70 {
+    top: 138px;
+  }
+  .piece-71 {
+    top: 140px;
+  }
+  .piece-72 {
+    top: 142px;
+  }
+  .piece-73 {
+    top: 144px;
+  }
+  .piece-74 {
+    top: 146px;
+  }
+  .piece-75 {
+    top: 148px;
+  }
+  .piece-76 {
+    top: 150px;
+  }
+  .piece-77 {
+    top: 152px;
+  }
+  .piece-78 {
+    top: 154px;
+  }
+  .piece-79 {
+    top: 156px;
+  }
+  .piece-80 {
+    top: 158px;
+  }
+  .piece-81 {
+    top: 160px;
+  }
+  .piece-82 {
+    top: 162px;
+  }
+  .piece-83 {
+    top: 164px;
+  }
+  .piece-84 {
+    top: 166px;
+  }
+  .piece-85 {
+    top: 168px;
+  }
+  .piece-86 {
+    top: 170px;
+  }
+  .piece-87 {
+    top: 172px;
+  }
+  .piece-88 {
+    top: 174px;
+  }
+  .piece-89 {
+    top: 176px;
+  }
+  .piece-90 {
+    top: 178px;
+  }
+  .piece-91 {
+    top: 180px;
+  }
+  .piece-92 {
+    top: 182px;
+  }
+  .piece-93 {
+    top: 184px;
+  }
+  .piece-94 {
+    top: 186px;
+  }
+  .piece-95 {
+    top: 188px;
+  }
+  .piece-96 {
+    top: 190px;
+  }
+  .piece-97 {
+    top: 192px;
+  }
+  .piece-98 {
+    top: 194px;
+  }
+  .piece-99 {
+    top: 196px;
+  }
+  .piece-100 {
+    top: 198px;
+  }
+  .piece-101 {
+    top: 200px;
+  }
+  .piece-102 {
+    top: 202px;
+  }
+  .piece-103 {
+    top: 204px;
+  }
+  .piece-104 {
+    top: 206px;
+  }
+  .piece-105 {
+    top: 208px;
+  }
+  .piece-106 {
+    top: 210px;
+  }
+  .piece-107 {
+    top: 212px;
+  }
+  .piece-108 {
+    top: 214px;
+  }
+  .piece-109 {
+    top: 216px;
+  }
+  .piece-110 {
+    top: 218px;
+  }
+  .piece-111 {
+    top: 220px;
+  }
+  .piece-112 {
+    top: 222px;
+  }
+  .piece-113 {
+    top: 224px;
+  }
+  .piece-114 {
+    top: 226px;
+  }
+  .piece-115 {
+    top: 228px;
+  }
+  .piece-116 {
+    top: 230px;
+  }
+  .piece-117 {
+    top: 232px;
+  }
+  .piece-118 {
+    top: 234px;
+  }
+  .piece-119 {
+    top: 236px;
+  }
+  .piece-120 {
+    top: 238px;
+  }
+  .piece-121 {
+    top: 240px;
+  }
+  .piece-122 {
+    top: 242px;
+  }
+  .piece-123 {
+    top: 244px;
+  }
+  .piece-124 {
+    top: 246px;
+  }
+  .piece-125 {
+    top: 248px;
+  }
+  .piece-126 {
+    top: 250px;
+  }
+  .piece-127 {
+    top: 252px;
+  }
+  .piece-128 {
+    top: 254px;
+  }
+  .piece-129 {
+    top: 256px;
+  }
+  .piece-130 {
+    top: 258px;
+  }
+  .piece-131 {
+    top: 260px;
+  }
+  .piece-132 {
+    top: 262px;
+  }
+  .piece-133 {
+    top: 264px;
+  }
+  .piece-134 {
+    top: 266px;
+  }
+  .piece-135 {
+    top: 268px;
+  }
+  .piece-136 {
+    top: 270px;
+  }
+  .piece-137 {
+    top: 272px;
+  }
+  .piece-138 {
+    top: 274px;
+  }
+  .piece-139 {
+    top: 276px;
+  }
+  .piece-140 {
+    top: 278px;
+  }
+  .piece-141 {
+    top: 280px;
+  }
+  .piece-142 {
+    top: 282px;
+  }
+  .piece-143 {
+    top: 284px;
+  }
+  .piece-144 {
+    top: 286px;
+  }
+  .piece-145 {
+    top: 288px;
+  }
+  .piece-146 {
+    top: 290px;
+  }
+  .piece-147 {
+    top: 292px;
+  }
+  .piece-148 {
+    top: 294px;
+  }
+  .piece-149 {
+    top: 296px;
+  }
+  .piece-150 {
+    top: 298px;
+  }
+  .piece-151 {
+    top: 300px;
+  }
+  .piece-152 {
+    top: 302px;
+  }
+  .piece-153 {
+    top: 304px;
+  }
+  .piece-154 {
+    top: 306px;
+  }
+  .piece-155 {
+    top: 308px;
+  }
+  .piece-156 {
+    top: 310px;
+  }
+  .piece-157 {
+    top: 312px;
+  }
+  .piece-158 {
+    top: 314px;
+  }
+  .piece-159 {
+    top: 316px;
+  }
+  .piece-160 {
+    top: 318px;
+  }
+  .piece-161 {
+    top: 320px;
+  }
+  .piece-162 {
+    top: 322px;
+  }
+  .piece-163 {
+    top: 324px;
+  }
+  .piece-164 {
+    top: 326px;
+  }
+  .piece-165 {
+    top: 328px;
+  }
+  .piece-166 {
+    top: 330px;
+  }
+  .piece-167 {
+    top: 332px;
+  }
+  .piece-168 {
+    top: 334px;
+  }
+  .piece-169 {
+    top: 336px;
+  }
+  .piece-170 {
+    top: 338px;
+  }
+  .piece-171 {
+    top: 340px;
+  }
+  .piece-172 {
+    top: 342px;
+  }
+  .piece-173 {
+    top: 344px;
+  }
+  .piece-174 {
+    top: 346px;
+  }
+  .piece-175 {
+    top: 348px;
+  }
+  .piece-176 {
+    top: 350px;
+  }
+  .piece-177 {
+    top: 352px;
+  }
+  .piece-178 {
+    top: 354px;
+  }
+  .piece-179 {
+    top: 356px;
+  }
+  .piece-180 {
+    top: 358px;
+  }
+  .piece-1:hover ~ .secondary,
+  .piece-1:active ~ .secondary {
+    height: 2px;
+    transition: initial;
+  }
+  .piece-2:hover ~ .secondary,
+  .piece-2:active ~ .secondary {
+    height: 4px;
+    transition: initial;
+  }
+  .piece-3:hover ~ .secondary,
+  .piece-3:active ~ .secondary {
+    height: 6px;
+    transition: initial;
+  }
+  .piece-4:hover ~ .secondary,
+  .piece-4:active ~ .secondary {
+    height: 8px;
+    transition: initial;
+  }
+  .piece-5:hover ~ .secondary,
+  .piece-5:active ~ .secondary {
+    height: 10px;
+    transition: initial;
+  }
+  .piece-6:hover ~ .secondary,
+  .piece-6:active ~ .secondary {
+    height: 12px;
+    transition: initial;
+  }
+  .piece-7:hover ~ .secondary,
+  .piece-7:active ~ .secondary {
+    height: 14px;
+    transition: initial;
+  }
+  .piece-8:hover ~ .secondary,
+  .piece-8:active ~ .secondary {
+    height: 16px;
+    transition: initial;
+  }
+  .piece-9:hover ~ .secondary,
+  .piece-9:active ~ .secondary {
+    height: 18px;
+    transition: initial;
+  }
+  .piece-10:hover ~ .secondary,
+  .piece-10:active ~ .secondary {
+    height: 20px;
+    transition: initial;
+  }
+  .piece-11:hover ~ .secondary,
+  .piece-11:active ~ .secondary {
+    height: 22px;
+    transition: initial;
+  }
+  .piece-12:hover ~ .secondary,
+  .piece-12:active ~ .secondary {
+    height: 24px;
+    transition: initial;
+  }
+  .piece-13:hover ~ .secondary,
+  .piece-13:active ~ .secondary {
+    height: 26px;
+    transition: initial;
+  }
+  .piece-14:hover ~ .secondary,
+  .piece-14:active ~ .secondary {
+    height: 28px;
+    transition: initial;
+  }
+  .piece-15:hover ~ .secondary,
+  .piece-15:active ~ .secondary {
+    height: 30px;
+    transition: initial;
+  }
+  .piece-16:hover ~ .secondary,
+  .piece-16:active ~ .secondary {
+    height: 32px;
+    transition: initial;
+  }
+  .piece-17:hover ~ .secondary,
+  .piece-17:active ~ .secondary {
+    height: 34px;
+    transition: initial;
+  }
+  .piece-18:hover ~ .secondary,
+  .piece-18:active ~ .secondary {
+    height: 36px;
+    transition: initial;
+  }
+  .piece-19:hover ~ .secondary,
+  .piece-19:active ~ .secondary {
+    height: 38px;
+    transition: initial;
+  }
+  .piece-20:hover ~ .secondary,
+  .piece-20:active ~ .secondary {
+    height: 40px;
+    transition: initial;
+  }
+  .piece-21:hover ~ .secondary,
+  .piece-21:active ~ .secondary {
+    height: 42px;
+    transition: initial;
+  }
+  .piece-22:hover ~ .secondary,
+  .piece-22:active ~ .secondary {
+    height: 44px;
+    transition: initial;
+  }
+  .piece-23:hover ~ .secondary,
+  .piece-23:active ~ .secondary {
+    height: 46px;
+    transition: initial;
+  }
+  .piece-24:hover ~ .secondary,
+  .piece-24:active ~ .secondary {
+    height: 48px;
+    transition: initial;
+  }
+  .piece-25:hover ~ .secondary,
+  .piece-25:active ~ .secondary {
+    height: 50px;
+    transition: initial;
+  }
+  .piece-26:hover ~ .secondary,
+  .piece-26:active ~ .secondary {
+    height: 52px;
+    transition: initial;
+  }
+  .piece-27:hover ~ .secondary,
+  .piece-27:active ~ .secondary {
+    height: 54px;
+    transition: initial;
+  }
+  .piece-28:hover ~ .secondary,
+  .piece-28:active ~ .secondary {
+    height: 56px;
+    transition: initial;
+  }
+  .piece-29:hover ~ .secondary,
+  .piece-29:active ~ .secondary {
+    height: 58px;
+    transition: initial;
+  }
+  .piece-30:hover ~ .secondary,
+  .piece-30:active ~ .secondary {
+    height: 60px;
+    transition: initial;
+  }
+  .piece-31:hover ~ .secondary,
+  .piece-31:active ~ .secondary {
+    height: 62px;
+    transition: initial;
+  }
+  .piece-32:hover ~ .secondary,
+  .piece-32:active ~ .secondary {
+    height: 64px;
+    transition: initial;
+  }
+  .piece-33:hover ~ .secondary,
+  .piece-33:active ~ .secondary {
+    height: 66px;
+    transition: initial;
+  }
+  .piece-34:hover ~ .secondary,
+  .piece-34:active ~ .secondary {
+    height: 68px;
+    transition: initial;
+  }
+  .piece-35:hover ~ .secondary,
+  .piece-35:active ~ .secondary {
+    height: 70px;
+    transition: initial;
+  }
+  .piece-36:hover ~ .secondary,
+  .piece-36:active ~ .secondary {
+    height: 72px;
+    transition: initial;
+  }
+  .piece-37:hover ~ .secondary,
+  .piece-37:active ~ .secondary {
+    height: 74px;
+    transition: initial;
+  }
+  .piece-38:hover ~ .secondary,
+  .piece-38:active ~ .secondary {
+    height: 76px;
+    transition: initial;
+  }
+  .piece-39:hover ~ .secondary,
+  .piece-39:active ~ .secondary {
+    height: 78px;
+    transition: initial;
+  }
+  .piece-40:hover ~ .secondary,
+  .piece-40:active ~ .secondary {
+    height: 80px;
+    transition: initial;
+  }
+  .piece-41:hover ~ .secondary,
+  .piece-41:active ~ .secondary {
+    height: 82px;
+    transition: initial;
+  }
+  .piece-42:hover ~ .secondary,
+  .piece-42:active ~ .secondary {
+    height: 84px;
+    transition: initial;
+  }
+  .piece-43:hover ~ .secondary,
+  .piece-43:active ~ .secondary {
+    height: 86px;
+    transition: initial;
+  }
+  .piece-44:hover ~ .secondary,
+  .piece-44:active ~ .secondary {
+    height: 88px;
+    transition: initial;
+  }
+  .piece-45:hover ~ .secondary,
+  .piece-45:active ~ .secondary {
+    height: 90px;
+    transition: initial;
+  }
+  .piece-46:hover ~ .secondary,
+  .piece-46:active ~ .secondary {
+    height: 92px;
+    transition: initial;
+  }
+  .piece-47:hover ~ .secondary,
+  .piece-47:active ~ .secondary {
+    height: 94px;
+    transition: initial;
+  }
+  .piece-48:hover ~ .secondary,
+  .piece-48:active ~ .secondary {
+    height: 96px;
+    transition: initial;
+  }
+  .piece-49:hover ~ .secondary,
+  .piece-49:active ~ .secondary {
+    height: 98px;
+    transition: initial;
+  }
+  .piece-50:hover ~ .secondary,
+  .piece-50:active ~ .secondary {
+    height: 100px;
+    transition: initial;
+  }
+  .piece-51:hover ~ .secondary,
+  .piece-51:active ~ .secondary {
+    height: 102px;
+    transition: initial;
+  }
+  .piece-52:hover ~ .secondary,
+  .piece-52:active ~ .secondary {
+    height: 104px;
+    transition: initial;
+  }
+  .piece-53:hover ~ .secondary,
+  .piece-53:active ~ .secondary {
+    height: 106px;
+    transition: initial;
+  }
+  .piece-54:hover ~ .secondary,
+  .piece-54:active ~ .secondary {
+    height: 108px;
+    transition: initial;
+  }
+  .piece-55:hover ~ .secondary,
+  .piece-55:active ~ .secondary {
+    height: 110px;
+    transition: initial;
+  }
+  .piece-56:hover ~ .secondary,
+  .piece-56:active ~ .secondary {
+    height: 112px;
+    transition: initial;
+  }
+  .piece-57:hover ~ .secondary,
+  .piece-57:active ~ .secondary {
+    height: 114px;
+    transition: initial;
+  }
+  .piece-58:hover ~ .secondary,
+  .piece-58:active ~ .secondary {
+    height: 116px;
+    transition: initial;
+  }
+  .piece-59:hover ~ .secondary,
+  .piece-59:active ~ .secondary {
+    height: 118px;
+    transition: initial;
+  }
+  .piece-60:hover ~ .secondary,
+  .piece-60:active ~ .secondary {
+    height: 120px;
+    transition: initial;
+  }
+  .piece-61:hover ~ .secondary,
+  .piece-61:active ~ .secondary {
+    height: 122px;
+    transition: initial;
+  }
+  .piece-62:hover ~ .secondary,
+  .piece-62:active ~ .secondary {
+    height: 124px;
+    transition: initial;
+  }
+  .piece-63:hover ~ .secondary,
+  .piece-63:active ~ .secondary {
+    height: 126px;
+    transition: initial;
+  }
+  .piece-64:hover ~ .secondary,
+  .piece-64:active ~ .secondary {
+    height: 128px;
+    transition: initial;
+  }
+  .piece-65:hover ~ .secondary,
+  .piece-65:active ~ .secondary {
+    height: 130px;
+    transition: initial;
+  }
+  .piece-66:hover ~ .secondary,
+  .piece-66:active ~ .secondary {
+    height: 132px;
+    transition: initial;
+  }
+  .piece-67:hover ~ .secondary,
+  .piece-67:active ~ .secondary {
+    height: 134px;
+    transition: initial;
+  }
+  .piece-68:hover ~ .secondary,
+  .piece-68:active ~ .secondary {
+    height: 136px;
+    transition: initial;
+  }
+  .piece-69:hover ~ .secondary,
+  .piece-69:active ~ .secondary {
+    height: 138px;
+    transition: initial;
+  }
+  .piece-70:hover ~ .secondary,
+  .piece-70:active ~ .secondary {
+    height: 140px;
+    transition: initial;
+  }
+  .piece-71:hover ~ .secondary,
+  .piece-71:active ~ .secondary {
+    height: 142px;
+    transition: initial;
+  }
+  .piece-72:hover ~ .secondary,
+  .piece-72:active ~ .secondary {
+    height: 144px;
+    transition: initial;
+  }
+  .piece-73:hover ~ .secondary,
+  .piece-73:active ~ .secondary {
+    height: 146px;
+    transition: initial;
+  }
+  .piece-74:hover ~ .secondary,
+  .piece-74:active ~ .secondary {
+    height: 148px;
+    transition: initial;
+  }
+  .piece-75:hover ~ .secondary,
+  .piece-75:active ~ .secondary {
+    height: 150px;
+    transition: initial;
+  }
+  .piece-76:hover ~ .secondary,
+  .piece-76:active ~ .secondary {
+    height: 152px;
+    transition: initial;
+  }
+  .piece-77:hover ~ .secondary,
+  .piece-77:active ~ .secondary {
+    height: 154px;
+    transition: initial;
+  }
+  .piece-78:hover ~ .secondary,
+  .piece-78:active ~ .secondary {
+    height: 156px;
+    transition: initial;
+  }
+  .piece-79:hover ~ .secondary,
+  .piece-79:active ~ .secondary {
+    height: 158px;
+    transition: initial;
+  }
+  .piece-80:hover ~ .secondary,
+  .piece-80:active ~ .secondary {
+    height: 160px;
+    transition: initial;
+  }
+  .piece-81:hover ~ .secondary,
+  .piece-81:active ~ .secondary {
+    height: 162px;
+    transition: initial;
+  }
+  .piece-82:hover ~ .secondary,
+  .piece-82:active ~ .secondary {
+    height: 164px;
+    transition: initial;
+  }
+  .piece-83:hover ~ .secondary,
+  .piece-83:active ~ .secondary {
+    height: 166px;
+    transition: initial;
+  }
+  .piece-84:hover ~ .secondary,
+  .piece-84:active ~ .secondary {
+    height: 168px;
+    transition: initial;
+  }
+  .piece-85:hover ~ .secondary,
+  .piece-85:active ~ .secondary {
+    height: 170px;
+    transition: initial;
+  }
+  .piece-86:hover ~ .secondary,
+  .piece-86:active ~ .secondary {
+    height: 172px;
+    transition: initial;
+  }
+  .piece-87:hover ~ .secondary,
+  .piece-87:active ~ .secondary {
+    height: 174px;
+    transition: initial;
+  }
+  .piece-88:hover ~ .secondary,
+  .piece-88:active ~ .secondary {
+    height: 176px;
+    transition: initial;
+  }
+  .piece-89:hover ~ .secondary,
+  .piece-89:active ~ .secondary {
+    height: 178px;
+    transition: initial;
+  }
+  .piece-90:hover ~ .secondary,
+  .piece-90:active ~ .secondary {
+    height: 180px;
+    transition: initial;
+  }
+  .piece-91:hover ~ .secondary,
+  .piece-91:active ~ .secondary {
+    height: 182px;
+    transition: initial;
+  }
+  .piece-92:hover ~ .secondary,
+  .piece-92:active ~ .secondary {
+    height: 184px;
+    transition: initial;
+  }
+  .piece-93:hover ~ .secondary,
+  .piece-93:active ~ .secondary {
+    height: 186px;
+    transition: initial;
+  }
+  .piece-94:hover ~ .secondary,
+  .piece-94:active ~ .secondary {
+    height: 188px;
+    transition: initial;
+  }
+  .piece-95:hover ~ .secondary,
+  .piece-95:active ~ .secondary {
+    height: 190px;
+    transition: initial;
+  }
+  .piece-96:hover ~ .secondary,
+  .piece-96:active ~ .secondary {
+    height: 192px;
+    transition: initial;
+  }
+  .piece-97:hover ~ .secondary,
+  .piece-97:active ~ .secondary {
+    height: 194px;
+    transition: initial;
+  }
+  .piece-98:hover ~ .secondary,
+  .piece-98:active ~ .secondary {
+    height: 196px;
+    transition: initial;
+  }
+  .piece-99:hover ~ .secondary,
+  .piece-99:active ~ .secondary {
+    height: 198px;
+    transition: initial;
+  }
+  .piece-100:hover ~ .secondary,
+  .piece-100:active ~ .secondary {
+    height: 200px;
+    transition: initial;
+  }
+  .piece-101:hover ~ .secondary,
+  .piece-101:active ~ .secondary {
+    height: 202px;
+    transition: initial;
+  }
+  .piece-102:hover ~ .secondary,
+  .piece-102:active ~ .secondary {
+    height: 204px;
+    transition: initial;
+  }
+  .piece-103:hover ~ .secondary,
+  .piece-103:active ~ .secondary {
+    height: 206px;
+    transition: initial;
+  }
+  .piece-104:hover ~ .secondary,
+  .piece-104:active ~ .secondary {
+    height: 208px;
+    transition: initial;
+  }
+  .piece-105:hover ~ .secondary,
+  .piece-105:active ~ .secondary {
+    height: 210px;
+    transition: initial;
+  }
+  .piece-106:hover ~ .secondary,
+  .piece-106:active ~ .secondary {
+    height: 212px;
+    transition: initial;
+  }
+  .piece-107:hover ~ .secondary,
+  .piece-107:active ~ .secondary {
+    height: 214px;
+    transition: initial;
+  }
+  .piece-108:hover ~ .secondary,
+  .piece-108:active ~ .secondary {
+    height: 216px;
+    transition: initial;
+  }
+  .piece-109:hover ~ .secondary,
+  .piece-109:active ~ .secondary {
+    height: 218px;
+    transition: initial;
+  }
+  .piece-110:hover ~ .secondary,
+  .piece-110:active ~ .secondary {
+    height: 220px;
+    transition: initial;
+  }
+  .piece-111:hover ~ .secondary,
+  .piece-111:active ~ .secondary {
+    height: 222px;
+    transition: initial;
+  }
+  .piece-112:hover ~ .secondary,
+  .piece-112:active ~ .secondary {
+    height: 224px;
+    transition: initial;
+  }
+  .piece-113:hover ~ .secondary,
+  .piece-113:active ~ .secondary {
+    height: 226px;
+    transition: initial;
+  }
+  .piece-114:hover ~ .secondary,
+  .piece-114:active ~ .secondary {
+    height: 228px;
+    transition: initial;
+  }
+  .piece-115:hover ~ .secondary,
+  .piece-115:active ~ .secondary {
+    height: 230px;
+    transition: initial;
+  }
+  .piece-116:hover ~ .secondary,
+  .piece-116:active ~ .secondary {
+    height: 232px;
+    transition: initial;
+  }
+  .piece-117:hover ~ .secondary,
+  .piece-117:active ~ .secondary {
+    height: 234px;
+    transition: initial;
+  }
+  .piece-118:hover ~ .secondary,
+  .piece-118:active ~ .secondary {
+    height: 236px;
+    transition: initial;
+  }
+  .piece-119:hover ~ .secondary,
+  .piece-119:active ~ .secondary {
+    height: 238px;
+    transition: initial;
+  }
+  .piece-120:hover ~ .secondary,
+  .piece-120:active ~ .secondary {
+    height: 240px;
+    transition: initial;
+  }
+  .piece-121:hover ~ .secondary,
+  .piece-121:active ~ .secondary {
+    height: 242px;
+    transition: initial;
+  }
+  .piece-122:hover ~ .secondary,
+  .piece-122:active ~ .secondary {
+    height: 244px;
+    transition: initial;
+  }
+  .piece-123:hover ~ .secondary,
+  .piece-123:active ~ .secondary {
+    height: 246px;
+    transition: initial;
+  }
+  .piece-124:hover ~ .secondary,
+  .piece-124:active ~ .secondary {
+    height: 248px;
+    transition: initial;
+  }
+  .piece-125:hover ~ .secondary,
+  .piece-125:active ~ .secondary {
+    height: 250px;
+    transition: initial;
+  }
+  .piece-126:hover ~ .secondary,
+  .piece-126:active ~ .secondary {
+    height: 252px;
+    transition: initial;
+  }
+  .piece-127:hover ~ .secondary,
+  .piece-127:active ~ .secondary {
+    height: 254px;
+    transition: initial;
+  }
+  .piece-128:hover ~ .secondary,
+  .piece-128:active ~ .secondary {
+    height: 256px;
+    transition: initial;
+  }
+  .piece-129:hover ~ .secondary,
+  .piece-129:active ~ .secondary {
+    height: 258px;
+    transition: initial;
+  }
+  .piece-130:hover ~ .secondary,
+  .piece-130:active ~ .secondary {
+    height: 260px;
+    transition: initial;
+  }
+  .piece-131:hover ~ .secondary,
+  .piece-131:active ~ .secondary {
+    height: 262px;
+    transition: initial;
+  }
+  .piece-132:hover ~ .secondary,
+  .piece-132:active ~ .secondary {
+    height: 264px;
+    transition: initial;
+  }
+  .piece-133:hover ~ .secondary,
+  .piece-133:active ~ .secondary {
+    height: 266px;
+    transition: initial;
+  }
+  .piece-134:hover ~ .secondary,
+  .piece-134:active ~ .secondary {
+    height: 268px;
+    transition: initial;
+  }
+  .piece-135:hover ~ .secondary,
+  .piece-135:active ~ .secondary {
+    height: 270px;
+    transition: initial;
+  }
+  .piece-136:hover ~ .secondary,
+  .piece-136:active ~ .secondary {
+    height: 272px;
+    transition: initial;
+  }
+  .piece-137:hover ~ .secondary,
+  .piece-137:active ~ .secondary {
+    height: 274px;
+    transition: initial;
+  }
+  .piece-138:hover ~ .secondary,
+  .piece-138:active ~ .secondary {
+    height: 276px;
+    transition: initial;
+  }
+  .piece-139:hover ~ .secondary,
+  .piece-139:active ~ .secondary {
+    height: 278px;
+    transition: initial;
+  }
+  .piece-140:hover ~ .secondary,
+  .piece-140:active ~ .secondary {
+    height: 280px;
+    transition: initial;
+  }
+  .piece-141:hover ~ .secondary,
+  .piece-141:active ~ .secondary {
+    height: 282px;
+    transition: initial;
+  }
+  .piece-142:hover ~ .secondary,
+  .piece-142:active ~ .secondary {
+    height: 284px;
+    transition: initial;
+  }
+  .piece-143:hover ~ .secondary,
+  .piece-143:active ~ .secondary {
+    height: 286px;
+    transition: initial;
+  }
+  .piece-144:hover ~ .secondary,
+  .piece-144:active ~ .secondary {
+    height: 288px;
+    transition: initial;
+  }
+  .piece-145:hover ~ .secondary,
+  .piece-145:active ~ .secondary {
+    height: 290px;
+    transition: initial;
+  }
+  .piece-146:hover ~ .secondary,
+  .piece-146:active ~ .secondary {
+    height: 292px;
+    transition: initial;
+  }
+  .piece-147:hover ~ .secondary,
+  .piece-147:active ~ .secondary {
+    height: 294px;
+    transition: initial;
+  }
+  .piece-148:hover ~ .secondary,
+  .piece-148:active ~ .secondary {
+    height: 296px;
+    transition: initial;
+  }
+  .piece-149:hover ~ .secondary,
+  .piece-149:active ~ .secondary {
+    height: 298px;
+    transition: initial;
+  }
+  .piece-150:hover ~ .secondary,
+  .piece-150:active ~ .secondary {
+    height: 300px;
+    transition: initial;
+  }
+  .piece-151:hover ~ .secondary,
+  .piece-151:active ~ .secondary {
+    height: 302px;
+    transition: initial;
+  }
+  .piece-152:hover ~ .secondary,
+  .piece-152:active ~ .secondary {
+    height: 304px;
+    transition: initial;
+  }
+  .piece-153:hover ~ .secondary,
+  .piece-153:active ~ .secondary {
+    height: 306px;
+    transition: initial;
+  }
+  .piece-154:hover ~ .secondary,
+  .piece-154:active ~ .secondary {
+    height: 308px;
+    transition: initial;
+  }
+  .piece-155:hover ~ .secondary,
+  .piece-155:active ~ .secondary {
+    height: 310px;
+    transition: initial;
+  }
+  .piece-156:hover ~ .secondary,
+  .piece-156:active ~ .secondary {
+    height: 312px;
+    transition: initial;
+  }
+  .piece-157:hover ~ .secondary,
+  .piece-157:active ~ .secondary {
+    height: 314px;
+    transition: initial;
+  }
+  .piece-158:hover ~ .secondary,
+  .piece-158:active ~ .secondary {
+    height: 316px;
+    transition: initial;
+  }
+  .piece-159:hover ~ .secondary,
+  .piece-159:active ~ .secondary {
+    height: 318px;
+    transition: initial;
+  }
+  .piece-160:hover ~ .secondary,
+  .piece-160:active ~ .secondary {
+    height: 320px;
+    transition: initial;
+  }
+  .piece-161:hover ~ .secondary,
+  .piece-161:active ~ .secondary {
+    height: 322px;
+    transition: initial;
+  }
+  .piece-162:hover ~ .secondary,
+  .piece-162:active ~ .secondary {
+    height: 324px;
+    transition: initial;
+  }
+  .piece-163:hover ~ .secondary,
+  .piece-163:active ~ .secondary {
+    height: 326px;
+    transition: initial;
+  }
+  .piece-164:hover ~ .secondary,
+  .piece-164:active ~ .secondary {
+    height: 328px;
+    transition: initial;
+  }
+  .piece-165:hover ~ .secondary,
+  .piece-165:active ~ .secondary {
+    height: 330px;
+    transition: initial;
+  }
+  .piece-166:hover ~ .secondary,
+  .piece-166:active ~ .secondary {
+    height: 332px;
+    transition: initial;
+  }
+  .piece-167:hover ~ .secondary,
+  .piece-167:active ~ .secondary {
+    height: 334px;
+    transition: initial;
+  }
+  .piece-168:hover ~ .secondary,
+  .piece-168:active ~ .secondary {
+    height: 336px;
+    transition: initial;
+  }
+  .piece-169:hover ~ .secondary,
+  .piece-169:active ~ .secondary {
+    height: 338px;
+    transition: initial;
+  }
+  .piece-170:hover ~ .secondary,
+  .piece-170:active ~ .secondary {
+    height: 340px;
+    transition: initial;
+  }
+  .piece-171:hover ~ .secondary,
+  .piece-171:active ~ .secondary {
+    height: 342px;
+    transition: initial;
+  }
+  .piece-172:hover ~ .secondary,
+  .piece-172:active ~ .secondary {
+    height: 344px;
+    transition: initial;
+  }
+  .piece-173:hover ~ .secondary,
+  .piece-173:active ~ .secondary {
+    height: 346px;
+    transition: initial;
+  }
+  .piece-174:hover ~ .secondary,
+  .piece-174:active ~ .secondary {
+    height: 348px;
+    transition: initial;
+  }
+  .piece-175:hover ~ .secondary,
+  .piece-175:active ~ .secondary {
+    height: 350px;
+    transition: initial;
+  }
+  .piece-176:hover ~ .secondary,
+  .piece-176:active ~ .secondary {
+    height: 352px;
+    transition: initial;
+  }
+  .piece-177:hover ~ .secondary,
+  .piece-177:active ~ .secondary {
+    height: 354px;
+    transition: initial;
+  }
+  .piece-178:hover ~ .secondary,
+  .piece-178:active ~ .secondary {
+    height: 356px;
+    transition: initial;
+  }
+  .piece-179:hover ~ .secondary,
+  .piece-179:active ~ .secondary {
+    height: 358px;
+    transition: initial;
+  }
+  .piece-180:hover ~ .secondary,
+  .piece-180:active ~ .secondary {
+    height: 360px;
+    transition: initial;
+  }
+}
