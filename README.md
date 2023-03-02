@@ -10,7 +10,7 @@ Once again could't stand the temptation of designing it in comics world style. *
 
 ## Checkout the live demo
 
-[CSS Hovers]()
+[CSS Hovers](https://peac-h.github.io/14_css-hovers/)
 
 ## Built with
 
