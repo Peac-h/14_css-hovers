@@ -12,6 +12,8 @@ Once again could't stand the temptation of designing it in comics world style. *
 
 [CSS Hovers](https://peac-h.github.io/14_css-hovers/)
 
+![CSS Hovers](https://raw.githubusercontent.com/Peac-h/14_css-hovers/main/Screen%20Shot%202023-03-01%20at%2010.12.45%20PM.png)
+
 ## Built with
 
 - html
